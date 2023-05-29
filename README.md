@@ -1,7 +1,7 @@
-# ☄️ JETSON-NANO
+# 🚀 JETSON-NANO
 
 <p align="justify">
-In this repo you will find usefull instructions to configure your AI Nvidia Jetson-Nano platform, featuring Pytorch, Tensorflow, OpenCV and other tools. 
+In this repo you will find usefull instructions to configure your AI Nvidia Jetson-Nano platform, featuring Pytorch, Tensorflow, OpenCV, jtop and other tools. 
 </p>
 
 <p align="center">
@@ -86,4 +86,43 @@ mmcblk0     179:0    0 59.5G  0 disk
   
 10. Run ```df -h``` again to confirm that the / partition is now using all of the available space on the SD card.
   
+</p>
+
+
+## 🛸 YOLOv8 installation
+
+<p align="justify">
+  
+1. In order to run <a href="https://github.com/ultralytics/ultralytics">YOLOv8</a>  on the Jetson Nano, you will have to install the Ultralytics Python package by running the ``` pip3 install ultralytics ``` command.
+
+</p>
+
+<p align="justify">
+  
+2. Create a python script called ```test.py``` that loads the YOLOv8 model and runs it on a USB webcam.
+
+</p>
+
+```python
+
+from ultralytics import YOLO
+
+# Load the model
+model = YOLO("yolov8n.pt")
+
+# Detect and show output
+model(source = 0, show = True)
+
+```
+
+<p align="justify">
+  
+3. Run the script with the ```python3 test.py``` command.
+
+</p>
+
+<p align="justify">
+  
+4. You can also check the GPU/CPU resources running the ```jtop``` command on another terminal.
+
 </p>
