@@ -1,8 +1,18 @@
 # ☄️ JETSON-NANO
 
 <p align="justify">
-In this repo you will find usefull data to configure your AI Nvidia Jetson-Nano platform.
+In this repo you will find usefull instructions to configure your AI Nvidia Jetson-Nano platform, featuring Pytorch, Tensorflow, OpenCV and other tools. 
 </p>
+
+<p align="center">
+  <img src="https://github.com/JVPC0D3R/resources/blob/main/jetson_gif_jvp.gif" width="300" />
+</p>
+
+<p align="justify">
+The Ubuntu 20.04 OS image I use is provided by <a href="https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image">Qengineering</a> and you can download it from the repo or directly from <a href="https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5/view/default/11304846510004">here</a>. This OS image was originally mounted on a 32GB SD card, so if you are using a 64GB or larger memory, you will need to resize the file system.
+</p>
+
+
 
 ## 📏 resizing filesystem on an SD Card
 
