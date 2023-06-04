@@ -126,3 +126,63 @@ model(source = 0, show = True)
 4. You can also check the GPU/CPU resources running the ```jtop``` command on another terminal.
 
 </p>
+
+## 🤖 ROS installation
+
+<p align="justify">
+  
+In order to create a robotic platform with <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">ROS</a>  on the Jetson Nano, you will have to follow the next steps.
+  
+</p>
+
+<p align="justify">
+  
+1. Setup your sources.list
+  
+  ```sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'``` 
+
+</p>
+
+<p align="justify">
+  
+2. Set up your keys
+  
+  ```curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -``` 
+
+</p>
+
+<p align="justify">
+  
+3. Make sure your Debian package index is up-to-date with the ```sudo apt update``` command.
+
+</p>
+
+<p align="justify">
+  
+4. Install ROS
+  
+    * Full version ```sudo apt install ros-noetic-desktop-full``` 
+  
+    * Desktop version ```sudo apt install ros-noetic-desktop``` 
+  
+    * Base version ```sudo apt install ros-noetic-base``` 
+
+</p>
+
+<p align="justify">
+  
+5. Automatically source the ```setup.sh``` script for every new shell
+
+```
+  echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
+  
+``` 
+
+</p>
+
+
+
+
+
+
