@@ -181,6 +181,17 @@ In order to create a robotic platform with <a href="http://wiki.ros.org/noetic/I
 
 </p>
 
+## 🦾 jetson devices
+
+| Device Name                     | GPU                                   | CPU                                  | Memory               | Storage            | Video Encode                                 | Video Decode                                | Power            |
+|---------------------------------|---------------------------------------|--------------------------------------|----------------------|--------------------|----------------------------------------------|---------------------------------------------|------------------|
+| Jetson AGX Orin 64GB Developer Kit | NVIDIA Ampere architecture GPU      | 12-core Arm Cortex-A78AE v8.2 64-bit CPU | 64GB 256-bit LPDDR5 | 64GB eMMC 5.1     | 2x 4K60 \| 4x 4K30 \| 8x 1080p60 \| 16x 1080p30 | 1x 8K30 \| 3x 4K60 \| 7x 4K30 \| 11x 1080p60 \| 22x 1080p30 | 15W-60W            |
+| Jetson AGX Xavier Industrial     | NVIDIA Volta architecture GPU         | 8-core NVIDIA Carmel Arm v8.2 64-bit CPU | 32GB 256-bit LPDDR4x | 64GB eMMC 5.1     | 2x 4K60 \| 6x 4K30 \| 12x 1080p60 \| 24x 1080p30 | 2x 8K30 \| 4x 4K60 \| 8x 4K30 \| 18x 1080p60 \| 36x 1080p30 | 20W-40W            |
+| Jetson AGX Xavier Developer Kit  | 512-Core NVIDIA Volta GPU with Tensor Cores | 8-Core ARM v8.2 64-Bit CPU          | 16GB 256-Bit LPDDR4x | 32GB eMMC 5.1      | 2x 4Kp60 \| HEVC/(2x) 4Kp60 \| 12-Bit Support | 2x 4Kp60 \| 4x 4Kp30 \| 8x 1080p60 \| 18x 1080p30 \| 36x 1080p30 | 10W-30W           |
+| Jetson Nano Developer Kit         | 128-core NVIDIA Maxwell GPU            | Quad-core ARM Cortex A57 CPU         | 4GB 64-Bit LPDDR4     | MicroSD (Card not included) | 1x 4K30 \| 2x 1080p60 \| 4x 1080p30 \| 9x 720p30 | 1x 4K60 \| 2x 4K30 \| 4x 1080p60 \| 8x 1080p30 \| 18x 720p30 | 5W                |
+| NVIDIA Jetson AGX Xavier Developer Kit  | 512-Core NVIDIA Volta GPU with Tensor Cores | 8-Core ARM v8.2 64-Bit CPU          | 16GB 256-Bit LPDDR4x | 32GB eMMC 5.1      | 2x 4Kp60 \| HEVC/(2x) 4Kp60 \| 12-Bit Support | 2x 4Kp60 \| 4x 4Kp30 \| 8x 1080p60 \| 18x 1080p30 \| 36x 1080p30 | 10W-30W           |
+
+
 
 
 
