@@ -1,5 +1,10 @@
 # 🚀 JETSON-NANO
 
+[![Jetson](https://img.shields.io/badge/Jetson_NANO-3a3a3a?style=for-the-badge&logo=nvidia&logoColor=green)](https://github.com/JVPC0D3R/jetson-nano)
+[![PyTorch](https://img.shields.io/badge/PyTorch-3a3a3a?style=for-the-badge&logo=PyTorch)](https://github.com/JVPC0D3R/jetson-nano)
+[![Bash](https://img.shields.io/badge/bash-3a3a3a?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/JVPC0D3R/jetson-nano)
+[![ROS](https://img.shields.io/badge/ROS-3a3a3a?style=for-the-badge&logo=ROS&logoColor=blue)](https://github.com/JVPC0D3R/jetson-nano)
+
 <p align="justify">
 In this repo you will find usefull instructions to configure your AI Nvidia Jetson-Nano platform, featuring Pytorch, Tensorflow, OpenCV, jtop and other tools. 
 </p>
@@ -12,6 +17,11 @@ In this repo you will find usefull instructions to configure your AI Nvidia Jets
 The Ubuntu 20.04 OS image I use is provided by <a href="https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image">Qengineering</a> and you can download it from the repo or directly from <a href="https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5/view/default/11304846510004">here</a>. This OS image was originally mounted on a 32GB SD card, so if you are using a 64GB or larger memory, you will need to resize the file system.
 </p>
 
+## 🦾 properties
+
+| Device Name                     | GPU                                   | CPU                                  | Memory               | Storage            | Video Encode                                 | Video Decode                                | Power            |
+|---------------------------------|---------------------------------------|--------------------------------------|----------------------|--------------------|----------------------------------------------|---------------------------------------------|------------------|
+| Jetson Nano Developer Kit         | 128-core NVIDIA Maxwell GPU            | Quad-core ARM Cortex A57 CPU         | 4GB 64-Bit LPDDR4     | MicroSD (Card not included) | 1x 4K30 \| 2x 1080p60 \| 4x 1080p30 \| 9x 720p30 | 1x 4K60 \| 2x 4K30 \| 4x 1080p60 \| 8x 1080p30 \| 18x 720p30 | 5W                |
 
 
 ## 📏 resizing filesystem on an SD Card
@@ -181,15 +191,8 @@ In order to create a robotic platform with <a href="http://wiki.ros.org/noetic/I
 
 </p>
 
-## 🦾 jetson devices
 
-| Device Name                     | GPU                                   | CPU                                  | Memory               | Storage            | Video Encode                                 | Video Decode                                | Power            |
-|---------------------------------|---------------------------------------|--------------------------------------|----------------------|--------------------|----------------------------------------------|---------------------------------------------|------------------|
-| Jetson AGX Orin 64GB Developer Kit | NVIDIA Ampere architecture GPU      | 12-core Arm Cortex-A78AE v8.2 64-bit CPU | 64GB 256-bit LPDDR5 | 64GB eMMC 5.1     | 2x 4K60 \| 4x 4K30 \| 8x 1080p60 \| 16x 1080p30 | 1x 8K30 \| 3x 4K60 \| 7x 4K30 \| 11x 1080p60 \| 22x 1080p30 | 15W-60W            |
-| Jetson AGX Xavier Industrial     | NVIDIA Volta architecture GPU         | 8-core NVIDIA Carmel Arm v8.2 64-bit CPU | 32GB 256-bit LPDDR4x | 64GB eMMC 5.1     | 2x 4K60 \| 6x 4K30 \| 12x 1080p60 \| 24x 1080p30 | 2x 8K30 \| 4x 4K60 \| 8x 4K30 \| 18x 1080p60 \| 36x 1080p30 | 20W-40W            |
-| Jetson AGX Xavier Developer Kit  | 512-Core NVIDIA Volta GPU with Tensor Cores | 8-Core ARM v8.2 64-Bit CPU          | 16GB 256-Bit LPDDR4x | 32GB eMMC 5.1      | 2x 4Kp60 \| HEVC/(2x) 4Kp60 \| 12-Bit Support | 2x 4Kp60 \| 4x 4Kp30 \| 8x 1080p60 \| 18x 1080p30 \| 36x 1080p30 | 10W-30W           |
-| Jetson Nano Developer Kit         | 128-core NVIDIA Maxwell GPU            | Quad-core ARM Cortex A57 CPU         | 4GB 64-Bit LPDDR4     | MicroSD (Card not included) | 1x 4K30 \| 2x 1080p60 \| 4x 1080p30 \| 9x 720p30 | 1x 4K60 \| 2x 4K30 \| 4x 1080p60 \| 8x 1080p30 \| 18x 720p30 | 5W                |
-| NVIDIA Jetson AGX Xavier Developer Kit  | 512-Core NVIDIA Volta GPU with Tensor Cores | 8-Core ARM v8.2 64-Bit CPU          | 16GB 256-Bit LPDDR4x | 32GB eMMC 5.1      | 2x 4Kp60 \| HEVC/(2x) 4Kp60 \| 12-Bit Support | 2x 4Kp60 \| 4x 4Kp30 \| 8x 1080p60 \| 18x 1080p30 \| 36x 1080p30 | 10W-30W           |
+
 
 
 
