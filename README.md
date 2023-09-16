@@ -1,6 +1,6 @@
 # 🚀 JETSON-NANO
 
-[![Jetson](https://img.shields.io/badge/Jetson_NANO-3a3a3a?style=for-the-badge&logo=nvidia&logoColor=green)](https://github.com/JVPC0D3R/jetson-nano)
+[![Jetson](https://img.shields.io/badge/Jetson_NANO_Developer_Kit_4GB-3a3a3a?style=for-the-badge&logo=nvidia&logoColor=green)](https://github.com/JVPC0D3R/jetson-nano)
 [![PyTorch](https://img.shields.io/badge/PyTorch-3a3a3a?style=for-the-badge&logo=PyTorch)](https://github.com/JVPC0D3R/jetson-nano)
 [![Bash](https://img.shields.io/badge/bash-3a3a3a?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/JVPC0D3R/jetson-nano)
 [![ROS](https://img.shields.io/badge/ROS-3a3a3a?style=for-the-badge&logo=ROS&logoColor=blue)](https://github.com/JVPC0D3R/jetson-nano)
